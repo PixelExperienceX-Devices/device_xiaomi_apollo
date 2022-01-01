@@ -46,6 +46,9 @@
 # (e.g. Google Camera App)
 /mnt/vendor/dsp/fastrpc_shell_3                                         u:object_r:public_adsprpcd_file:s0
 
+# HALs
+/(vendor|system/vendor)/bin/hw/android\.hardware\.drm@1\.4-service.clearkey                             u:object_r:vendor_hal_drm_widevine_exec:s0
+
 # Health
 /sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm8150b@2:qcom,qpnp-smb5/power_supply/wireless(/.*)?         u:object_r:sysfs_wireless_supply:s0
 
